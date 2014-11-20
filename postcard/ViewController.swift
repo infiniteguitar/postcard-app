@@ -35,7 +35,6 @@ class ViewController: UIViewController {
         enterMessageTextField.resignFirstResponder()
         
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
-        mailButton.setTitle(<#title: String?#>, forState: <#UIControlState#>)
     }
 
 }
