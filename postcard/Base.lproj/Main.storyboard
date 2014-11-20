@@ -106,6 +106,14 @@
                                     <action selector="sendMailButtonPressed:" destination="7pT-RJ-8xT" eventType="touchUpInside" id="rOW-n6-1Cb"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="changed for Elliot" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Iy-8S-4f5">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="167" y="436" width="189" height="30"/>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -115,6 +123,7 @@
                                 <exclude reference="vTc-7F-xRn"/>
                                 <exclude reference="UQ9-wo-JfT"/>
                                 <exclude reference="GsW-Aj-e1c"/>
+                                <exclude reference="8Iy-8S-4f5"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -124,6 +133,7 @@
                                 <include reference="vTc-7F-xRn"/>
                                 <include reference="UQ9-wo-JfT"/>
                                 <include reference="GsW-Aj-e1c"/>
+                                <include reference="8Iy-8S-4f5"/>
                             </mask>
                         </variation>
                     </view>
