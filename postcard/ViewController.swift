@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Hi Elliot, I reloaded this from git hub and it worked fine.  Yesterday I didn't work on this at all.  This morning, again not making any changes, I opened the simulator and the project crashed.  No idea what is going on.  Hope you can help.
     }
 
     override func didReceiveMemoryWarning() {
